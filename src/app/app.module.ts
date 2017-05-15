@@ -12,12 +12,13 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { AppComponent } from './app.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [ //lista todas as diretivas,pipes e outros módulos que queremos usar nesse projeto
     AppComponent,
     MeuPrimeiroComponent, 
-    MeuPrimeiro2Component
+    MeuPrimeiro2Component, DataBindingComponent
   ],
   imports: [//outros módulos não nossos ou componentes que pertencem a outros módulos
     BrowserModule,

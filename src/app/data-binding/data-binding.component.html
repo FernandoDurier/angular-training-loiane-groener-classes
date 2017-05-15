@@ -1,0 +1,21 @@
+<section class="property-binding">
+  <article>
+    <h2>Interpolation</h2>
+      <p>String renderizada com interpolation: {{ url }}</p>
+      <p>Resultado de 1+1 = {{ 1+1 }}</p>
+      <p>Resultado de getValor(): [ {{getValor()}} ]</p>
+  </article>
+  <article>
+    <h2>Property Binding</h2>
+      <p>Imagem:</p> 
+      <p><img src='{{ getImagem() }}'></p>
+      <p>Imagem por property binding explicito:</p>
+      <p> <img [src]='getImagem()'></p>
+      <p>Property binding usando bind-src, mesma coisa que a linha anterior:</p>
+      <p><img bind-src='getImagem()'></p>
+  </article>
+  <article>
+    <h3>Style Binding</h3>
+    
+  </article>
+</section>
